@@ -43,6 +43,7 @@ export type { Locale } from '@/lib/i18n/config';
  * Falls back to English if translation not found
  * zh-TW falls back to zh (Simplified Chinese) content
  * ar falls back to en content for now
+ * th falls back to en content for now
  */
 export function getToolContent(locale: Locale, toolId: string): ToolContent | undefined {
   const contentMap: Record<Locale, Record<string, ToolContent>> = {
@@ -60,6 +61,7 @@ export function getToolContent(locale: Locale, toolId: string): ToolContent | un
     id: toolContentId,
     vi: toolContentVn,
     ro: toolContentEn, // Fallback to English for Romanian tool content for now
+    th: toolContentEn, // Fallback to English until Thai tool content is translated
     pl: toolContentPl,
   };
 

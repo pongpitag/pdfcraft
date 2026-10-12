@@ -33,7 +33,7 @@ This project is built with modern web technologies to provide a slick, app-like 
 - **🚀 Fast & Responsive**: Powered by Next.js and WebAssembly for near-native performance.
 - **🛠️ Comprehensive Toolset**: Over 80+ tools to handle any PDF task.
 - **🎨 Modern UI**: Clean, accessible, and responsive design built with Tailwind CSS.
-- **🌐 Multi-language**: Supports English, Spanish, French, German, Portuguese, Japanese, Korean, and Chinese.
+- **🌐 Multi-language**: Supports English, Spanish, French, German, Portuguese, Japanese, Korean, Chinese, Thai, and more (see `messages/`).
 
 ## 🔄 Workflow Editor (Beta)
 
